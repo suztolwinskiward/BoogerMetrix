@@ -1,0 +1,71 @@
+ℹ Loading pastime
+Building schedule for season 2020...
+  season 2020: 50/900 games processed
+  season 2020: 100/900 games processed
+  season 2020: 150/900 games processed
+  season 2020: 200/900 games processed
+  season 2020: 250/900 games processed
+  season 2020: 300/900 games processed
+  season 2020: 350/900 games processed
+  season 2020: 400/900 games processed
+  season 2020: 450/900 games processed
+  season 2020: 500/900 games processed
+  season 2020: 550/900 games processed
+  season 2020: 600/900 games processed
+  season 2020: 650/900 games processed
+  season 2020: 700/900 games processed
+  season 2020: 750/900 games processed
+  season 2020: 800/900 games processed
+  season 2020: 850/900 games processed
+  season 2020: 900/900 games processed
+Building schedule for season 2026...
+  season 2026: 50/1965 games processed
+  season 2026: 100/1965 games processed
+  season 2026: 150/1965 games processed
+  season 2026: 200/1965 games processed
+  season 2026: 250/1965 games processed
+  season 2026: 300/1965 games processed
+  season 2026: 350/1965 games processed
+  season 2026: 400/1965 games processed
+  season 2026: 450/1965 games processed
+  season 2026: 500/1965 games processed
+  season 2026: 550/1965 games processed
+  season 2026: 600/1965 games processed
+  season 2026: 650/1965 games processed
+  season 2026: 700/1965 games processed
+  season 2026: 750/1965 games processed
+  season 2026: 800/1965 games processed
+  season 2026: 850/1965 games processed
+  season 2026: 900/1965 games processed
+  season 2026: 950/1965 games processed
+  season 2026: 1000/1965 games processed
+  season 2026: 1050/1965 games processed
+  season 2026: 1100/1965 games processed
+  season 2026: 1150/1965 games processed
+  season 2026: 1200/1965 games processed
+  season 2026: 1250/1965 games processed
+  season 2026: 1300/1965 games processed
+  season 2026: 1350/1965 games processed
+  season 2026: 1400/1965 games processed
+  season 2026: 1450/1965 games processed
+  season 2026: 1500/1965 games processed
+  season 2026: 1550/1965 games processed
+  season 2026: 1600/1965 games processed
+  season 2026: 1650/1965 games processed
+  season 2026: 1700/1965 games processed
+  season 2026: 1750/1965 games processed
+  season 2026: 1800/1965 games processed
+  season 2026: 1850/1965 games processed
+  season 2026: 1900/1965 games processed
+  season 2026: 1950/1965 games processed
+  season 2026: 1965/1965 games processed
+
+=== FINAL SUMMARY ===
+   season     status     N
+    <num>     <char> <int>
+1:   2020  cache_hit    12
+2:   2020 downloaded   888
+3:   2026 downloaded  1964
+4:   2026  cache_hit     1
+TOTAL GAMES: 2865 
+ALL DONE

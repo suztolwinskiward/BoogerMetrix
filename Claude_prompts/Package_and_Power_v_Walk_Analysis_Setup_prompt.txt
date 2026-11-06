@@ -1,0 +1,13 @@
+Help me use the functionality in the R ‘baseballr’ package to download data and pre-process it for a particular analysis I have in mind. 
+
+What I want to analyze is whether there is a time-evolving relationship between a player's ability to draw walks, and the same player’s ability to hit for power. I think a moving-window average over time within seasons of players’ walk rate and slugging percentage is the first thing I want to look at for my exploratory analysis.
+
+To start, I need to get game-by-game data, so that I can calculate the statistics of interest (walk rate, slugging percentage) across at-bats within a time window. So I will need game dates, the underlying data on each at-bat used to compute slugging percentage and walk rate for each at-bat, number of at-bats, and I will want this for each player, with the players’ team and name attached to it. I want it for all games during the 2020 and the current 2026 season, if possible. I would like the process to grab this data and pre-process it into a data.table to be modularized into a set of functions that can be re-used and called with different input parameters (eg., choosing a different set of years, changing the length of the averaging time window, etc.)
+
+I would like to start building all of this into an R package. Downloaded raw game data can be downloaded into a subdirectory called data-raw/. Functions to pull data, compute statistics from at-bat data, etc, can be built into appropriately named and grouped files in an R/ subdirectory. For example, functions that are related to downloading data can be defined in a file called something like R/grab_data_funcs.r, and functions for computing slugging percentage and walk rate can be defined in a file called something like R/compute_statistics.r. 
+
+I would like to finish the project set-up and data pre-processing described here before moving on to creating the actual analysis.
+
+
+
+

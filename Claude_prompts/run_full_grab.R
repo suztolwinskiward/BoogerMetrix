@@ -1,0 +1,7 @@
+devtools::load_all(".")
+summary_dt <- grab_season_data(c(2020, 2026), game_types = "R", verbose = TRUE)
+saveRDS(summary_dt, "data-raw/grab_summary.rds")
+cat("\n=== FINAL SUMMARY ===\n")
+print(summary_dt[, .N, by = .(season, status)])
+cat("TOTAL GAMES:", nrow(summary_dt), "\n")
+cat("ALL DONE\n")
