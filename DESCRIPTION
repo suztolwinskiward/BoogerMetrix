@@ -1,0 +1,22 @@
+Package: Tolwardski_AmericasPastimeProject
+Title: Player-Level Walk Rate and Slugging Time Series from MLB Data
+Version: 0.0.0.9000
+Authors@R:
+    person("Ward", "Family", , , role = c("aut", "cre"))
+Description: Downloads MLB game-by-game play-by-play data via the
+    'baseballr' package, caches it locally, and pre-processes it into
+    player-game level statistics (plate appearances, at-bats, walks,
+    total bases). Provides rolling-window functions to compute
+    time-evolving walk rate and slugging percentage per player within a
+    season, in support of exploratory analysis of the relationship
+    between plate discipline and power hitting.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.3
+Imports:
+    baseballr,
+    data.table
+Suggests:
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3

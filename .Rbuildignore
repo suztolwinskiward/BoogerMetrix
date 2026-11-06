@@ -1,0 +1,5 @@
+^data-raw$
+^Claude_prompts$
+^.*\.Rproj$
+^\.Rproj\.user$
+^LICENSE\.md$
