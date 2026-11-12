@@ -2,7 +2,10 @@ Package: Tolwardski_AmericasPastimeProject
 Title: Player-Level Walk Rate and Slugging Time Series from MLB Data
 Version: 0.0.0.9000
 Authors@R:
-    person("Ward", "Family", , , role = c("aut", "cre"))
+    c(person("Suz", "Tolwinski-Ward", email = "suzski@gmail.com", role = c("aut", "cre")),
+    person("Rocco", "Ward", role = "ctb"),
+    person("Coley", "Ward", email = "coley.ward@gmail.com", role = "ctb")
+    )
 Description: Downloads MLB game-by-game play-by-play data via the
     'baseballr' package, caches it locally, and pre-processes it into
     player-game level statistics (plate appearances, at-bats, walks,
